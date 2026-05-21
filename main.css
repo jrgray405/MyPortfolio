@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 50px;
+   background: #333;
+   color: white;
+   position: sticky;
+   top: 0;
+}
+
+
+.nav-links {
+   list-style: none;
+   display: flex;
+}
+
+
+.nav-links li {
+   margin-left: 20px;
+}
+
+
+.nav-links a {
+   color: white;
+   text-decoration: none;
+}
+
+
+/* Hero Section */
+.hero {
+   
+    height: 80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-image: url(Images/Painting.jpg);
+   background-size: cover;
+   background-position: center top;
+   height: 400px;
+   text-align: center;
+    color:white
+}
+
+
+
+.hero h1 { font-size: 3rem; margin-bottom: 10px; color: white;}
+
+
+.btn {
+   margin-top: 20px;
+   padding: 10px 25px;
+   background: #500606;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+.round-image {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    position:relative
+}
+
+
+/* Project Grid */
+.projects { padding: 50px; text-align: center; }
+
+
+
+.photo-grid {
+  display: grid; /* Enables grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Automatically fits columns */
+  gap: 10px; /* Spacing between photos */
+}
+
+.photo-grid img {
+  width: 100%; /* Ensures images fill their container */
+  height: 300; /* Optional: forces uniform height */
+  object-fit: cover; /* Prevents images from stretching */
+}
+
+
+/* Footer */
+.contact {
+   padding: 40px;
+   background: #333;
+   color: white;
+   text-align: center;
+}
+
+
